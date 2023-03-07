@@ -43,9 +43,9 @@
         camera.position.set(-1, 0.5, 1.7);
 
         scene = new THREE.Scene();
-        scene.background = new THREE.Color(0xfce4ec);
+        scene.background = new THREE.Color("#4B81C4");
 
-        const ambient = new THREE.HemisphereLight(0xffffff, 0xbfd4d2, 1);
+        const ambient = new THREE.HemisphereLight(0xffffff, 0xbfd4d2, 0.6);
         scene.add(ambient);
 
         const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
